@@ -1,0 +1,24 @@
+/* Select all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color:black;
+}
+
+/* main, footer */
+main, footer {
+    min-width: 100%;
+}
+.menu-list{
+    display: inline-flex;
+    list-style: none;
+}
+.logo {
+    width: 5em;
+}
